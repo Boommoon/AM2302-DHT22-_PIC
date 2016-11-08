@@ -1,7 +1,7 @@
 #include <p18f4525.h>
 #include <delays.h>
 
-//³]©w·L³B²z¾¹¬ÛÃöµ²ºc¦ì¤¸
+//è¨­å®šå¾®è™•ç†å™¨ç›¸é—œçµæ§‹ä½å…ƒ
 #pragma config	OSC=HS, BOREN=OFF, PWRT=OFF, WDT=OFF, LVP=OFF
 #define OSC_CLOCK 16
 
@@ -46,7 +46,7 @@ void main()
 		Nop();
 	}	
 }
-//*****************©µ¿ğ«ü©w²@¬íµ{¦¡**********************
+//*****************å»¶é²æŒ‡å®šæ¯«ç§’ç¨‹å¼**********************
 void delay_ms(long A) 
 {
 //This function is only good for OSC_CLOCK higher then 4MHz
